@@ -1,0 +1,340 @@
+@font-face {
+	font-family: Lato;
+	src: url(lato/Lato-Regular.ttf);
+}
+@font-face {
+	font-family: Lato-Bold;
+	src: url(lato/Lato-Bold.ttf);
+}
+
+*{
+	font-family: Lato, sans-serif;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.textphone{
+	cursor: pointer;
+}
+.main_part{
+	height: 749px;
+	width: 1519px;
+	background-image: url(img/первая.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.logo_img{
+	margin-top: 20px;
+	cursor: pointer;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+ul{
+	display: flex;
+	cursor: pointer;
+
+}
+li{
+	list-style-type: none;
+	padding: 20px 15px 5px 15px;
+	color: white;
+	/*transition: 0.7s;*/
+}
+
+li:hover{
+	border-bottom: 2px solid white;
+}
+.text_main{
+	color: white;
+	font-size: 50px;
+	width: 673px;
+
+	margin: 179px auto 20px auto;
+	text-transform: uppercase;
+}
+.button_main{
+	background-color: #bee926;
+	width: 180px;
+	height: 50px;
+	color: white;
+	border:none;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 30px;
+	margin-left:650px;
+	transition: 0.5s;
+}
+.button_main:hover
+{
+	cursor: pointer;
+	box-shadow: 0 5px 10px -3px black;
+}
+
+.phone_box{
+	height: 722px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.phone_part{ 
+	width: 1080px; 
+	height: 540px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*margin-top: 120px;*/
+}
+
+.phonetext_box{
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+}
+.phonetext{
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+}
+.phonetext::after{
+	content: '';
+	background-image: url(img/heart.png);
+	height: 14px;
+	width: 14px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.phonetext_paragraph{
+	width: 580px;
+	color: #7f7f7f;
+}
+
+.logphoneall{
+	display: flex;
+}
+
+.textphone{
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.logphone_responsive::before{
+	content: '';
+	display: block;
+	margin-bottom: 13px;
+	width: 136px;
+	height: 136px;
+	background-image: url(img/1.png);
+}
+
+.logphone_uniq,.logphone_supp{
+	margin-left: 65px;
+}
+
+.logphone_uniq::before{
+	content: '';
+	display: block;
+	margin-bottom: 13px;
+	width: 136px;
+	height: 136px;
+	background-image: url(img/2.png);
+}
+.logphone_supp::before{
+	content: '';
+	display: block;
+	margin-bottom: 13px;
+	width: 136px;
+	height: 136px;
+	background-image: url(img/3.png);	
+}
+
+.choose_box{
+	height: 749px;
+	width: 1519px;
+	background-image: url(img/purple.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+
+}
+.main_textchoose{
+	font-family: Lato-Bold, sans-serif;
+	text-transform: uppercase;
+	padding-top: 130px;
+	padding-left: 612px;
+}
+.pictures_choose{
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+}
+.picture_choose{
+	margin-left: 93px;
+}
+
+.text_choose{
+	display: flex;
+	margin-top: 30px;
+
+}
+.text_choosework, .text_choosedevelop,.text_chooseapp,.text_chooseworking{
+	width: 182px;
+	text-align: center;
+	font-family: Lato-Bold;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.text_choosework{
+	margin-left: 303px;	
+}
+
+.text_choosedevelop{
+	margin-left: 63px;	
+}
+.text_chooseapp{
+	margin-left: 60px;
+}
+.text_chooseworking{
+	margin-left: 63px;
+}
+
+.aboutapps_block{
+	height: 734px;
+	width: 1519px;
+	background-image: url(img/lemon.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+}
+
+.forms{
+	height: 502px;
+	width: 1519px;
+	background-image: url(img/blue.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+}
+
+.footer{
+	height: 75px;
+	background-color: #462762;
+}
+
+.aboutapps_part{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 278px;
+	/*padding-left: 400px;*/
+	
+}
+.aboutapps_textmain{
+	font-family: Lato-Bold, sans-serif;
+	text-transform: uppercase;
+	color: black;
+	font-size: 28px;
+}
+
+.lemonslogo{
+	padding-top: 73px;
+}
+.aboutapps_paragraph{
+	margin-top: 35px;
+	font-size: 15px;
+	color:#a7a7a7;
+	width: 412px;
+	text-align: center;
+}
+
+.aboutapps_textfio{
+	font-family: Lato-Bold, sans-serif;
+	color: black;
+	margin-top: 15px;
+}
+
+.aboutapps_textdata{
+	margin-top: 10px;
+	color: black;
+}
+
+.formtext{
+	text-transform: uppercase;
+	font-size: 28px;
+	font-family: Lato-Bold, sans-serif;
+	margin-left: 670px;
+	padding-top: 115px;
+}
+.inputname, .inputemail, .inputtext{
+	height: 40px;
+	border:none;
+	border-bottom: 2px solid white;
+	padding: 5px 7px 5px 0px;
+	background-color: transparent;
+	 color: white;
+}
+
+.inputname, .inputemail, .inputtext:focus{
+	outline: none;
+}
+
+input::-webkit-input-placeholder { color:white; }
+
+.form{
+	margin-left: 397px;
+	width: 727px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.button_forms{
+	background-color: #bee926;
+	width: 180px;
+	height: 50px;
+	color: white;
+	border:none;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 30px;
+	margin-left: 270px;
+	margin-top: 40px;
+	transition: 0.5s;
+}
+
+.button_forms:hover
+{
+	cursor: pointer;
+	box-shadow: 0 5px 10px -3px black;
+}
+
+button:focus{
+	outline: none;
+}
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #8c759f;
+
+}
+.welcome_link{
+	text-decoration: none;
+	color: #8c759f;
+	    margin-left: 700px;
+}

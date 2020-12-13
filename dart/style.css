@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+
+body{
+	margin:0;
+	padding:0;
+	background-color: black; /*#000000e3;*/
+	font-family: Nunito Sans, sans-serif;
+}
+
+.container{
+	display: flex;
+	height: 750px;
+
+}
+
+.logo{
+	display:flex;
+}
+
+
+.logo1{
+	margin-left: 20px;
+	margin-bottom: 27px;
+	border: 2px solid red;
+	padding: 10px;
+	border-radius: 40px; 
+}
+
+.logo1facebook{
+	margin-left: 0px;
+		margin-bottom: 27px;
+	border: 2px solid red;
+	padding: 10px;
+	border-radius: 40px; 
+}
+
+.container1{
+margin-left: 45px;
+margin-top: 150px;
+}
+
+
+.text1, .text2{
+
+	color: white;
+	font-family: Nunito Sans, sans-serif;
+	
+}
+
+.text1{
+font-size: 70px;
+font-weight: 900;
+}
+
+
+.text2{
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+.mylife{
+	text-decoration: none;
+	color: white;
+	font-family: Nunito Sans, sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	border: 2px solid red;
+	padding: 10px 25px 10px 25px;
+	border-radius: 40px; 
+	
+
+}
+
+
+
+
+
+.mainpicture{
+	order:2;
+	align-self: flex-end;
+}
+
+.containermini{
+	margin-top: 30px;
+	display:flex;
+	justify-content: center;
+}
+
+
+.containermini1, .containermini2, .containermini3{
+	
+	border: 1px solid black;
+	margin: 0 40px 20px 40px; 
+	
+	background-color: #3f3f3f8f;
+	height: 400px;
+	width: 350px;
+	border-radius: 10px;
+
+}
+
+
+.contm{
+	height:137px;
+	display:flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+
+	justify-content: space-around;
+}
+
+.pictmini{
+	border-radius: 8px 10px 0px 0px;
+	margin-bottom: 15px;
+}
+
+
+.guestIcon{
+	/*margin-top: 20px;*/
+	margin-left: 25px;
+	margin-right: 10px;
+}
+
+.spanBy{
+	font-size: 15px;
+	font-weight: 700;
+	color: white;
+}
+.spanAdm{
+	font-size: 15px;
+	font-weight: 700;
+	color: red;
+	margin-left: 3px;
+}
+
+.calIcon{
+	/*margin-top: 20px;*/
+	margin-left: 10px;
+
+}
+
+.spanDni{
+	font-size: 15px;
+	font-weight: 700;
+	color: white;
+	margin-left: 10px;
+}
+
+p{
+	font-size:19px;
+	font-weight: 800;
+	color: white;
+	margin-left: 25px;
+}
+.rmore{
+	margin-left: 25px;
+	text-decoration: none;
+	color: red;
+	font-family: Nunito Sans, sans-serif;
+	font-weight: 900;
+	font-size: 17px;
+}
+
+.rmpict{
+	margin-left: 7px;
+	/*margin-top: 5px;*/
+}
+
+.videoDarth{
+	margin: 30px auto 20px auto;
+	width: 700px;
+	height: 460px;
+	/*background-color: #3f3f3f8f;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.videoDarthText{
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+
+}

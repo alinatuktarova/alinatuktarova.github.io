@@ -94,7 +94,7 @@ body {
 	        filter: grayscale(100%);
 	width: 585px;
 	height: 305px;
-	background-image: url(img/s2.png);
+	background-image: url(img/s2.PNG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -112,7 +112,7 @@ body {
 	        filter: grayscale(100%);
 	width: 585px;
 	height: 305px;
-	background-image: url(img/s1.png);
+	background-image: url(img/s1.PNG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -126,7 +126,7 @@ body {
 	        filter: grayscale(100%);
 	width: 585px;
 	height: 305px;
-	background-image: url(img/s3.png);
+	background-image: url(img/s3.PNG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;

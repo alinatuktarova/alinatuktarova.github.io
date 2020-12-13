@@ -1,0 +1,204 @@
+@font-face {
+	font-family: mn;
+	src: url(Manrope/static/Manrope-Medium.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: mn, sans-serif;
+}
+body {
+	background-color: black;
+}
+.menu {
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: flex-end;
+	width: 95%;
+}
+.container {
+	position: absolute;
+	top: 0;
+	background: none;
+	display: flex;
+	width: 40px;
+	height: 40px;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 30px 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+.container span {
+	height: 3px;
+	background: white;
+	transition: transform 0.5s;
+	border-radius: 20px;
+}
+.container:hover>span {
+	background: #91795e;
+}
+.container:hover>span:nth-child(1) {
+	transform: translateY(14px) rotate(-45deg);
+}
+.container:hover>span:nth-child(3) {
+	transform: translateY(-14px) rotate(45deg);
+}
+.container:hover>span:nth-child(2) {
+	opacity: 0;
+}
+.container:not(:hover)>span:nth-child(2) {
+	transition: opacity 0.6s 0.15s;
+}
+.text_undertitle {
+	color: white;
+	text-align: center;
+	font-size: 36px;
+}
+.form {
+	display: block;
+	max-width: 600px;
+	max-height: 700px;
+	display: flex;
+	margin: 20px auto 30;
+	flex-direction: column;
+	flex-grow: 1;
+}
+input::placeholder {
+	color: white;
+}
+input, .select_items {
+	height: 40px;
+	padding: 5px 10px;
+	margin: 20px 0px;
+	outline: none;
+	background-color: #101010;
+	border: none;
+	color: #cdc6c6;
+	/*border-radius: 5px;*/
+	font-size: 17px;
+	border-bottom: 1px solid #91795e;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: 0.5s;
+}
+.selected_items {
+	background: transparent;
+}
+input:focus {
+	border-bottom: 1px solid white;
+}
+.button {
+	margin: 19px auto 0;
+	max-width: 170px;
+	max-height: 90px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 3px solid #91795e;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.button:hover {
+	background-color: #91795e;
+}
+.button:focus {
+	outline: none;
+	/*border:none;*/
+}
+.main {
+	height: 100vh;
+	background-color: black;
+}
+::selection {
+	background: #91795e;
+}
+.title {
+	text-align: center;
+	color: white;
+	font-size: 72px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.5;
+	padding-top: 4%;
+}
+.text_question {
+	color: white;
+	text-align: center;
+}
+.icons {
+	display: flex;
+	justify-content: space-around;
+	width: 150px;
+	margin: auto;
+}
+.vk {
+	width: 35px;
+	height: 35px;
+	background-image: url(img/vk.png);
+	background-size: cover;
+	transition: 0.5s;
+}
+.vk:hover {
+	width: 35px;
+	height: 35px;
+	background-image: url(img/vk1.png);
+	background-size: cover;
+}
+.inst {
+	width: 35px;
+	height: 35px;
+	background-image: url(img/instagram.png);
+	background-size: cover;
+	transition: 0.5s;
+}
+.inst:hover {
+	width: 35px;
+	height: 35px;
+	background-image: url(img/instagram1.png);
+	background-size: cover;
+}
+.telegram {
+	width: 35px;
+	height: 35px;
+	background-image: url(img/telegram.png);
+	background-size: cover;
+	transition: 0.5s;
+}
+.telegram:hover {
+	width: 35px;
+	height: 35px;
+	background-image: url(img/telegram1.png);
+	background-size: cover;
+}
+@media screen and (max-width: 768px) {
+	.title {
+		font-size: 58px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.title {
+		text-align: center;
+		font-size: 44px;
+	}
+	.photo_main {
+		max-width: 80%;
+		max-width: 80%;
+	}
+	.form {
+		padding: 8px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.form {
+		padding: 8px;
+	}
+	.text_undertitle {
+		font-size: 20px;
+	}
+}
+

@@ -10,7 +10,7 @@ body{
 
 .container{
 	display: flex;
-	height: 750px;
+	height: 100vh;
 
 }
 
@@ -85,6 +85,7 @@ font-weight: 900;
 	margin-top: 30px;
 	display:flex;
 	justify-content: center;
+	flex-wrap:wrap;
 }
 
 

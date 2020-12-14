@@ -80,7 +80,7 @@ body {
 	transform: translate(-50%, -50%);
 	transition: 0.5s;
 }
-.photo_main:hover {
+.photo_main:hover, .title:hover~.photo_main  {
 	background-image: url(img/a.jpg);
 }
 .title {

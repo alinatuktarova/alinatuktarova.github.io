@@ -214,14 +214,14 @@ a {
 	display: block;
 	width: 443px;
 	height: 443px;
-	background-image: url(img/lapme1.jpg);
+	background-image: url(img/lapme1-min.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	transition: 0.4s;
 }
 .photo_main:hover {
-	background-image: url(img/lapme.jpg);
+	background-image: url(img/lapme-min.jpg);
 }
 @keyframes move {
 	0% {

@@ -89,6 +89,7 @@ body {
 	padding-top: 4%;
 }
 .photo_dart {
+	display: block;
 	cursor: pointer;
 	-webkit-filter: grayscale(100%);
 	        filter: grayscale(100%);
@@ -202,6 +203,7 @@ span {
 	}
 	.photo_dart {
 		background-size: contain;
+		
 	}
 }
 @media screen and (max-width: 500px) {

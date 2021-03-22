@@ -1,0 +1,43 @@
+.shopping-element__company{
+    padding: var(--spacing-medium);
+    font-weight: 600;
+}
+
+.shopping-element__name{
+    padding: var(--spacing-medium);
+}
+
+.shopping-element__size, .shopping-element__sum{
+    font-family: sans-serif;
+    padding: var(--spacing-medium);
+}
+
+
+.shopping-element__price{
+    padding: var(--spacing-medium);
+    color: var(--color-unaccent);
+    font-family: sans-serif;
+}
+
+.shopping-container{
+    width: 97%;
+    height: 97vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: var(--spacing-large);
+    background-color: white;
+}
+
+.shopping__close{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    object-fit: contain;
+    top: 20px;
+	right: 20px;
+}

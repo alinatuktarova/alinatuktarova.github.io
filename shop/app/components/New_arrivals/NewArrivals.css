@@ -1,0 +1,68 @@
+ .arrivals-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 10px;
+    width: 80%;
+    max-width: 1200px;
+    margin: var(--spacing-large) auto;
+} 
+
+.arrivalsContainer{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 15px;
+    background-color: white;
+    transition: 0.5s;
+    border: 1px solid white;
+}
+
+.arrivalsItems{
+    margin: 70px 10px;
+}
+
+.arrivalsItems__img{
+    height: 350px;
+}
+
+.arrivalsItems__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.arrivalsItems__button{
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 14px;
+        /* font-weight: 700; */
+        /* height: 50px; */
+        width: 140px; 
+        padding: 20px 0;
+        background-color: transparent;
+        border: 1px solid black;
+        cursor: pointer;
+        margin-top: var(--spacing-medium);
+    }
+    
+.arrivalsItems__button::after{
+    content:'';
+    display: block;
+    width: 19px;
+    height: 18px;
+    background-image: url('../../right.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.arrivals-text{
+    display: block;
+    width: 320px;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 22px auto;
+    text-transform: uppercase;
+}

@@ -52,7 +52,7 @@ class Products{
                 }
                 ROOT_VIEW_PRODUCTS.innerHTML=`
                 <div class='small-productBox'>
-                    <img class='small-productBox__closeImg' src='./../images/icons/cancel.png' onclick='productsPage.closeView();'/>
+                    <img class='small-productBox__closeImg' src='./images/icons/cancel.png' onclick='productsPage.closeView();'/>
                     <div class='small-productBox__img_container'>
                         <img class='small-productBox__img' src='${img}'/>
                         <div class='small-productBox__imgBox'>
